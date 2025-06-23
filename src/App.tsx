@@ -1,20 +1,11 @@
+import Cabecalho from "./Cabecalho";
+
 export default function App() {
   // Comentário de uma linha
   /* Comentário de múltiplas linhas */
   return (
     <>
-      <header>
-        <h1>Olá React! 😁😁</h1>
-        <hr />
-        <nav>
-          <a href="">Home</a>
-          <a href="">Sobre</a>
-          <a href="">Contato</a>
-        </nav>
-      </header>
-      {/*  Comentários no meio do JSX: é nomrla ficar entre {} */}
-      {/* Ao usar outro elementos HTML no JSX, é importante envolver tudo em <> </> (Fragmento React) */}
-
+      <Cabecalho />
       <main>
         <section>
           <h2> Seja bem-vindo(a) aos Fundamentos de React!</h2>
@@ -52,7 +43,7 @@ export default function App() {
       <footer>
         <h2>Pequeno site criado com React</h2>
         <p>
-          Desenvolvido por <b> Heloisa</b> &copy;2025
+          Desenvolvido por <b> Heloisa</b> &copy; 2025
         </p>
       </footer>
     </>
