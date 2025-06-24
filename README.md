@@ -1,5 +1,7 @@
 # Fundamentos de React
 
+## 04_estilos
+
 ## 03_componentes-filhos-ou-internos
 
 - Criação de um componente filho (Menu) e importação/uso no pai (Cabeçalho)
