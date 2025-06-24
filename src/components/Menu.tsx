@@ -1,9 +1,17 @@
+import Nav from "./Menu.module.css";
+
 export default function Menu() {
   return (
-    <nav>
-      <a href="">Home</a>
-      <a href="">Sobre</a>
-      <a href="">Contato</a>
+    <nav className={Nav.nav}>
+      <a href="" className={Nav.link}>
+        Home
+      </a>
+      <a href="" className={Nav.link}>
+        Sobre
+      </a>
+      <a href="" className={Nav.link}>
+        Contato
+      </a>
     </nav>
   );
 }
