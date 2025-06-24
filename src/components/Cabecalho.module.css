@@ -8,3 +8,15 @@ Isso, vai te obrigar a usar a classe através de sintaxe de array com colchetes 
   color: rgb(151, 33, 151);
   padding: 1rem;
 }
+
+.logo {
+  vertical-align: middle;
+  margin-right: 0.2;
+}
+.titulo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-size: 1.5rem;
+}
