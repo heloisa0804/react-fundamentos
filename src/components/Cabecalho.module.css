@@ -12,6 +12,7 @@ Isso, vai te obrigar a usar a classe através de sintaxe de array com colchetes 
 .logo {
   vertical-align: middle;
   margin-right: 0.2;
+  width: 42px;
 }
 .titulo {
   display: flex;
