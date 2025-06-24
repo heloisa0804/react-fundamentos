@@ -7,6 +7,17 @@ Isso, vai te obrigar a usar a classe através de sintaxe de array com colchetes 
   background-color: #20232a;
   color: rgb(151, 33, 151);
   padding: 1rem;
+
+  a {
+    color: rgb(168, 51, 51);
+    text-decoration: none;
+  }
+
+  hr {
+    border: none;
+    border-top: 1px solid;
+    margin: 0.4rem 0;
+  }
 }
 
 .logo {
@@ -21,3 +32,10 @@ Isso, vai te obrigar a usar a classe através de sintaxe de array com colchetes 
   gap: 0.5rem;
   font-size: 1.5rem;
 }
+
+/* Classe/Seletor Descendente
+Formata os links contidos na classe do header */
+/* .topoSite a {
+  text-decoration: none;
+  color: chocolate;
+} */
