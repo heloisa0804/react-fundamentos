@@ -1,6 +1,7 @@
 /* Tudo que for usado dentro de componentes (imagens, fonstes etc),
 deve ser importado. Desta forma, no momento do build, haverá otimizações para este conteúdo. */
 import logo from "../assets/logo-react.png";
+import Menu from "./Menu";
 
 export default function Cabecalho() {
   return (
@@ -9,6 +10,7 @@ export default function Cabecalho() {
         <img src={logo} alt="" /> Olá React! 😁😁
       </h1>
       <hr />
+      <Menu />
     </header>
   );
 }
