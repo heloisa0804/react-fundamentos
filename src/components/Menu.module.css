@@ -12,12 +12,12 @@
   color: white;
   text-decoration: none;
   font-weight: bold;
-  transition: color 0.3s ease;
 }
 
 .link:hover {
   color: #b700ff;
   font-size: 20px;
+  font-weight: bold;
 }
 
 .link:focus {
