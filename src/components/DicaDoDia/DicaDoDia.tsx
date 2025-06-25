@@ -1,41 +1,4 @@
-import styled from "styled-components";
-
-let tema: boolean = true;
-
-const StyledDicaDoDia = styled.section`
-  background-color: ${tema ? "#10ca1f" : "ligthblue"};
-  border-left: 5px solid darkgreen;
-  padding: 1rem;
-  margin-top: 1rem;
-  border-radius: 4px;
-
-  h3 {
-    margin-top: 0;
-    color: darkblue;
-  }
-
-  p {
-    color: darkblue;
-    font-size: 1.1rem;
-  }
-
-  .site-oficial {
-    background-color: white;
-    text-align: center;
-    padding: 0.4rem;
-
-    a {
-      text-decoration: none;
-      color: darkcyan;
-      font-weight: bold;
-
-      &:hover,
-      &:focus {
-        text-decoration: underline;
-      }
-    }
-  }
-`;
+import { StyledDicaDoDia } from "../DicaDodia.stile";
 
 export default function DicaDoDia() {
   return (
