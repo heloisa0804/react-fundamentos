@@ -10,7 +10,10 @@ export default function Conteudo() {
       <section
         className={`${estilos.principal}${estilos.arredondada} ${estilos.sombraS}`}
       >
-        <h2> Seja bem-vindo(a) aos Fundamentos de React!</h2>
+        <h2 className="font-bold text-lg">
+          {" "}
+          Seja bem-vindo(a) aos Fundamentos de React!
+        </h2>
         <p> Este é um exemplo de aplicação React</p>
 
         <Artigo />
