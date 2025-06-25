@@ -3,7 +3,7 @@ import styled from "styled-components";
 //Simulando uma mudança de tema
 let tema: boolean = true;
 
-const StyledDicaDoDia = styled.section`
+export const StyledDicaDoDia = styled.section`
   //Avaliando se o tema simulado é true (aplica verde) ou false (aplica azul)
   background-color: ${tema ? "#e8f5e9" : "lightblue"};
 
