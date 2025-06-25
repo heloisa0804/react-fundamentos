@@ -1,5 +1,7 @@
 # Fundamentos de React
 
+# 07_tailwindcss
+
 # 06_styled-components
 
 Style Components é uma biblioteca (lib)
