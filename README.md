@@ -2,6 +2,36 @@
 
 # 07_tailwindcss
 
+- O Tailwind CSS é um framework CSS utilitário, ou seja, ele fornece classes prontas para você aplicar estilos diretamente no HTML, sem precisar criar regras personalizadas em um arquivo CSS separado.
+
+🌀 O que o Tailwind faz?
+Em vez de escrever:
+
+- css
+- Copiar
+- Editar
+  .titulo {
+  font-size: 24px;
+  color: red;
+  }
+
+### Você escreve direto no HTML:
+
+- html
+- Copiar
+- Editar
+<h1 class="text-red-500 text-2xl">Título</h1>
+✅ Vantagens principais:
+Rápida prototipação: permite montar o layout visual muito rápido.
+
+Menos CSS customizado: evita a criação de muitas classes próprias.
+
+Design consistente: segue uma escala visual (cores, espaçamentos, tamanhos) padronizada.
+
+Responsivo com facilidade: usa classes como md:, lg: para definir estilos em diferentes tamanhos de tela.
+
+Manutenção mais fácil: como tudo fica no HTML, é mais direto ver o que cada parte está fazendo.
+
 # 06_styled-components
 
 Style Components é uma biblioteca (lib)
