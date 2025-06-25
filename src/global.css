@@ -29,3 +29,11 @@ p {
 .outro-texto {
   text-transform: uppercase;
 }
+
+p {
+  line-height: 1.5;
+}
+h2,
+h3 {
+  margin: 0.5rem 0;
+}
