@@ -1,15 +1,15 @@
-import Nav from "./Menu.module.css";
+import estilos from "./Menu.module.css";
 
 export default function Menu() {
   return (
-    <nav className={Nav.nav}>
-      <a href="" className={Nav.link}>
+    <nav className={estilos.nav}>
+      <a href="" className={estilos.link}>
         Home
       </a>
-      <a href="" className={Nav.link}>
+      <a href="" className={estilos.link}>
         Sobre
       </a>
-      <a href="" className={Nav.link}>
+      <a href="" className={estilos.link}>
         Contato
       </a>
     </nav>
