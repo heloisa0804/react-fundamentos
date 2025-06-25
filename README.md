@@ -1,5 +1,16 @@
 # Fundamentos de React
 
+# 06_styled-components
+
+Style Components é uma biblioteca (lib)
+muito usada com projetos React que permite escrever estilos CSS dentro do JavaScript usando a própria sintaxe do CSS. Os estilos ficam acoplados ao componente em que foram declarados.
+
+### Instalaçao
+
+- npm install styled-components
+- npm install --save-dev @types/styles-components
+- Extensão vscode-styled-components
+
 # 05_modolos-css
 
 Módulos CSS (CSS Modules) são uma maneira de escrever CSS em arquivo separados de extensão `.module.css` em que cada classe e estilo fica isolado para um único componente. Há um **acoplamento** entre o módulo e seu compononente, permitindo um escopo bem definido sobre os estilos.

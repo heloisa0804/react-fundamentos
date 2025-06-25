@@ -1,5 +1,7 @@
 import Artigo from "../Artigo/Artigo";
+import DicaDoDia from "../DicaDoDia/DicaDoDia";
 import estilos from "./Conteudo.module.css";
+
 export default function Conteudo() {
   return (
     <main className={estilos.conteudo}>
@@ -14,6 +16,8 @@ export default function Conteudo() {
 
         <Artigo />
       </section>
+
+      <DicaDoDia />
     </main>
   );
 }
