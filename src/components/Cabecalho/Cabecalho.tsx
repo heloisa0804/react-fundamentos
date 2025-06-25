@@ -1,5 +1,5 @@
 import logo from "../../assets/logo-react.png";
-import Menu from "../Menu/Menu";
+import Menu from "./Menu/Menu";
 
 // Importando o módulo CSS para componente Cabeçalho
 import estilos from "./Cabecalho.module.css";

@@ -1,4 +1,4 @@
-import { StyledDicaDoDia } from "../DicaDodia.stile";
+import { StyledDicaDoDia } from "../../DicaDodia.stile";
 
 export default function DicaDoDia() {
   return (
