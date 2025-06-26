@@ -1,15 +1,14 @@
 //Declara um tipo que sera usado pelas props do Componente
 type Props = {
   nome: string;
+  classe: string;
 };
 
 export default function Saudacao(props: Props) {
   return (
     <>
-      <h2 className="font-bold text-lg">Fundamentos de React!</h2>
-
-      <p className="my-2">
-        Bem-vindo(a) <b>{props.nome}</b>
+      <p className={`my-2 rounded text-center ${props.classe}`}>
+        Bem-vindo(a) <b>{props.nome} </b>
       </p>
     </>
   );
