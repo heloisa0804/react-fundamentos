@@ -1,10 +1,14 @@
 //Declara um tipo que sera usado pelas props do Componente
 type SaudacaoProps = {
-  nome: string;
+  nome?: string;
   classe: string;
 };
 
-export default function Saudacao({ nome, classe }: SaudacaoProps) {
+export default function Saudacao({
+  // caso nome não seja informado (opcional), visitante será usado
+  nome = "Visitante",
+  classe,
+}: SaudacaoProps) {
   return (
     <>
       <p className={`my-2 rounded text-center ${classe}`}>
