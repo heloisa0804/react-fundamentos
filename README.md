@@ -1,5 +1,13 @@
 # Fundamentos de React
 
+## 08_props
+
+Props ( abreviação de propriedades) são pârametros que um componente pode receber.
+
+Elas funcionam como argumentos de uma função, que podem receber dados de um componente pai para um componente filho.
+
+Props basicamente são uma forma de comunicação entre componentes.
+
 # 07_tailwindcss
 
 - O Tailwind CSS é um framework CSS utilitário, ou seja, ele fornece classes prontas para você aplicar estilos diretamente no HTML, sem precisar criar regras personalizadas em um arquivo CSS separado.
