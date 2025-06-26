@@ -6,7 +6,7 @@ type ArtigoProps = {
 };
 
 export default function Artigo({ dados }: ArtigoProps) {
-  // Podemos receber prop dados para depois
+  // Podemos receber prop dados para depois desestruturar
   const { titulo, preco, categoria } = dados;
   return (
     <article className={estilos.artigo}>
