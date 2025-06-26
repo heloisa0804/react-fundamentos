@@ -18,10 +18,11 @@ export default function Conteudo() {
         <p> Este é um exemplo de aplicação React</p>
 
         {/* Faça a lógica necessária para apresentar o componente Artigo e passar para ele os dados de cada curso proveniente */}
-
-        {cursos.map((curso) => {
-          return <Artigo dados={curso} key={curso.id} />;
-        })}
+        <div className={estilos.artigos}>
+          {cursos.map((curso) => (
+            <Artigo dados={curso} key={curso.id} />
+          ))}
+        </div>
       </section>
 
       <DicaDoDia />
