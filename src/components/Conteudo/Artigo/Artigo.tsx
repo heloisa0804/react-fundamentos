@@ -19,6 +19,8 @@ export default function Artigo({
       <h3>
         Artigo {numero}: {titulo}
       </h3>
+
+      {/* Reinderização condicional: só mostra o páragrafo se existe um valor na prop data. */}
       {data && (
         <p>
           Data do registro: <time>{data?.toLocaleDateString()}</time>
