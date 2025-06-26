@@ -16,7 +16,7 @@ export default function Conteudo() {
         <Saudacao classe="bg-red-100" />
         <p> Este é um exemplo de aplicação React</p>
 
-        <Artigo titulo="Front-End" numero={1}>
+        <Artigo titulo="Front-End" numero={1} data={new Date()}>
           {" "}
           <p>
             Front-End é muito bacana, a gente usa HTML com CSS e Java Script
