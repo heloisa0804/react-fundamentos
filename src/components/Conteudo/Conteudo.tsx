@@ -16,11 +16,19 @@ export default function Conteudo() {
         <Saudacao classe="bg-red-100" />
         <p> Este é um exemplo de aplicação React</p>
 
-        <Artigo />
+        <Artigo titulo="Front-End" texto="Um texto qualquer" numero={1} />
 
-        <Artigo />
+        <Artigo
+          titulo="Back-End"
+          texto="Um texto qualquer sobre Back"
+          numero={2}
+        />
 
-        <Artigo />
+        <Artigo
+          titulo="Mobile"
+          texto="Um texto qualquer sobre Mobile"
+          numero={3}
+        />
       </section>
 
       <DicaDoDia />

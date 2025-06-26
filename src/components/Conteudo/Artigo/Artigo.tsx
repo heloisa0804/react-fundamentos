@@ -1,15 +1,18 @@
 import estilos from "./Artigo.module.css";
 
-export default function Artigo() {
+type ArtigoProps = {
+  titulo: string;
+  texto: string;
+  numero: number;
+};
+
+export default function Artigo({ titulo, texto, numero }: ArtigoProps) {
   return (
     <article className={estilos.artigo}>
-      <h3>Artigo 1 de exemplo</h3>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil
-        consequatur dolore accusamus distinctio aut dolorem totam earum minus
-        dicta dignissimos obcaecati est id eligendi quasi, dolores itaque fugit
-        qui? Quam?
-      </p>
+      <h3>
+        Artigo {numero}: {titulo}
+      </h3>
+      <p>{texto}</p>
     </article>
   );
 }
