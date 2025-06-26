@@ -1,33 +1,23 @@
-import type { ReactNode } from "react";
+import type { Curso } from "../../../types/Curso";
 import estilos from "./Artigo.module.css";
 
 type ArtigoProps = {
-  titulo: string;
-  numero: number;
-  children: ReactNode;
-  data?: Date;
+  dados: Curso;
 };
 
-export default function Artigo({
-  titulo,
-  numero,
-  children,
-  data,
-}: ArtigoProps) {
+export default function Artigo({ dados }: ArtigoProps) {
+  // Podemos receber prop dados para depois
+  const { titulo, preco, categoria } = dados;
   return (
     <article className={estilos.artigo}>
-      <h3>
-        Artigo {numero}: {titulo}
-      </h3>
-
-      {/* Reinderização condicional: só mostra o páragrafo se existe um valor na prop data. */}
-      {data && (
-        <p>
-          Data do registro: <time>{data?.toLocaleDateString()}</time>
-        </p>
-      )}
-
-      {children}
+      <h3>{titulo}</h3>
+      <p>
+        <b>Categoria:</b>
+        {categoria}
+      </p>
+      <p>
+        <b>Preço:</b> {preco}
+      </p>
     </article>
   );
 }
