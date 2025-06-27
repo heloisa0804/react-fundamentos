@@ -4,8 +4,12 @@ import estilos from "./Conteudo.module.css";
 import Saudacao from "./Saudacao";
 import ListaCursos from "../Lista/ListasCursos";
 import cursos from "../../data/cursos";
+import { useState } from "react";
 
 export default function Conteudo() {
+  // Definindo o state para categoria ativa/selecionada, podendo ser null (valor padrão,inicial) ou string ( quando uma categoria for selecionada)
+  const [categoriAtiva, setCategoriaAtiva] = useState<null | string>(null);
+
   const categorias = [...new Set(cursos.map((curso) => curso.categoria))];
 
   return (
@@ -20,12 +24,20 @@ export default function Conteudo() {
 
         {categorias.map((categoria) => {
           return (
-            <button className="rounded py-1 px-2 mr-1 my-1 bg-amber-200 hover:bg-green-300">
+            <button
+              onClick={() => setCategoriaAtiva(categoria)}
+              className="rounded py-1 px-2 mr-1 my-1 bg-amber-200 hover:bg-green-300"
+            >
               {categoria}
             </button>
           );
         })}
 
+        {categoriAtiva && (
+          <p>
+            Categoria selecionada: <b>{categoriAtiva}</b>
+          </p>
+        )}
         <ListaCursos />
       </section>
 
