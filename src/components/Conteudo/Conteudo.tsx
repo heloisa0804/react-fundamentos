@@ -46,7 +46,7 @@ export default function Conteudo() {
             </p>
           </>
         )}
-        <ListaCursos />
+        <ListaCursos categoria={categoriAtiva} />
       </section>
 
       <DicaDoDia />
