@@ -17,8 +17,8 @@ export default function Conteudo() {
         <p> Este é um exemplo de aplicação React</p>
 
         {/* Faça a lógica necessária para apresentar o componente Artigo e passar para ele os dados de cada curso proveniente */}
+        <ListaCursos />
       </section>
-      <ListaCursos />
 
       <DicaDoDia />
 

@@ -1,6 +1,10 @@
 # Fundamentos de React
 
-## 09_props-com-dados-dinâmico
+## 09_props-com-dados-dinâmicos
+
+- Ultilização de props para enviar dados dinâmicos para um componente
+- Configuração de array de dados com definição de tipo
+- Refatoração de compoinentes criando o ListaCursos com map de Artigo dentro.
 
 ## 08_props
 
