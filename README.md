@@ -2,6 +2,10 @@
 
 ## 10_manipulando-eventos
 
+No React, nós declaramos explicitamente o que queremos que o componente faça através de props de eventos.
+
+Estas props aceitam uma callback na sintaxe de arrow function, ou então uma chamada (apenas o nome, sem parênteses) de uma função externa
+
 ## 09_props-com-dados-dinâmicos
 
 - Ultilização de props para enviar dados dinâmicos para um componente
